@@ -10,6 +10,11 @@ body{
 header{
     padding: 10px 0px 0px 0px;
     background-color: white;
+    
+}
+h3{
+    font-weight: 300;
+    font-size: 20px;
 }
 /* Fine Parte generale */
 
@@ -29,15 +34,19 @@ header{
 /* inizio parte centrale - main */
 .container{
     background-color: white;
-    width: 60%;
+    width: 80%;
     margin: 40px auto;
+    
+}
+.main_container{
+    padding: 20px 50px;
+}
+#buttons{
+    padding: 35px 50px;
+    background-color: white;
+    border-bottom: 1px solid #f7f8fb;
 }
 
-#buttons{
-    display: inline-block;
-    padding: 30px;
-    background-color: white;
-}
 #task{
     text-align: center;
     font: 10px;
@@ -58,4 +67,94 @@ header{
     padding: 8px 20px;
     color: #e0e0e4;
 
+}
+.tasks{
+    padding-top: 20px;
+}
+#pointer::after{
+    content: '\25BE';
+}
+.verified::before{
+    font-size: 10px;
+    content: '\2713';
+    color:#5dbea6 ;
+    border: 2px solid #5dbea6;
+    border-radius:45px;
+    padding: 1px 4px;
+    margin-right: 10px;
+}
+.error_mark::before{
+    font-size: 11px;
+    content: '\2718';
+    color:red ;
+    border: 2px solid red;
+    border-radius:50px;
+    padding: 1px 4px;
+    margin-right: 10px;
+}
+.editorial{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    background-color: #63abed;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
+}
+.goals{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    background-color: #9c72e4;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
+}
+.recruiting{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    background-color: #64c0a9;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
+}
+.mobile{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    background-color: #f29d2e;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
+}
+.website{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    background-color: #d863a1;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
+}
+.sales{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    background-color: #afc823;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
 }
