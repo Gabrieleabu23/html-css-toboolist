@@ -17,6 +17,8 @@ h3{
     font-weight: 300;
     font-size: 20px;
 }
+
+
 /* Fine Parte generale */
 
 /* Inzio header - intestazione */
@@ -40,9 +42,9 @@ h3{
     background-color: white;
     width: 80%;
     margin: 20px auto;
+    padding-bottom: 30px;
     
 }
-
 
 .main_container{
     padding: 0px 50px;
@@ -58,7 +60,6 @@ hr{
     border: none;
     margin: 0px -5%;
 }
-
 
 .tasks{
     padding-top: 5px;
@@ -86,10 +87,13 @@ hr{
     cursor:pointer;
 
 }
-
+/* Freccia in giu' */
 .pointer::after{
     content: '\25BE';
 }
+/* Fine Freccia in giu' */
+
+/* Segno verificato - verde */
 .verified::before{
     font-size: 10px;
     content: '\2713';
@@ -99,6 +103,8 @@ hr{
     padding: 1px 3px;
     margin-right: 10px;
 }
+/* Fine Segno verificato - verde */
+/* Segno errore - rosso */
 .error_mark::before{
     font-size: 11px;
     content: '\2718';
@@ -108,6 +114,7 @@ hr{
     padding: 1px 4px;
     margin-right: 10px;
 }
+/* Fine Segno errore - rosso */
 .border_elements{
     text-align: center;
     font-weight: 800;
@@ -118,6 +125,7 @@ hr{
     color:white;
     margin-left: 5px;
 }
+/* Colori border elements */
 .editorial{
     background-color: #63abed;
 
@@ -137,3 +145,6 @@ hr{
 .sales{
     background-color: #afc823;
 }
+/* Fine Colori border elements */
+
+/* Fine parte centrale - main */
