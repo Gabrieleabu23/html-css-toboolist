@@ -1,3 +1,22 @@
 *{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',Verdana sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fb;
+}
+header{
+    padding: 10px 0px 0px 0px;
+    background-color: white;
+}
+#logo{
+    
+    margin-left: 20px;
+    line-height: 50px;
+}
+#logo_text{
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 30px;
 }
