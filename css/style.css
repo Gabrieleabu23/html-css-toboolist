@@ -12,6 +12,7 @@ header{
     background-color: white;
     
 }
+
 h3{
     font-weight: 300;
     font-size: 20px;
@@ -32,25 +33,38 @@ h3{
 /* Fine header - intestazione */
 
 /* inizio parte centrale - main */
+
 .container{
+    border: 5px solid white;
+    border-radius: 10px;
     background-color: white;
     width: 80%;
-    margin: 40px auto;
+    margin: 20px auto;
     
 }
+
+
 .main_container{
-    padding: 20px 50px;
+    padding: 0px 50px;
 }
+
 #buttons{
     padding: 35px 50px 25px;
     background-color: white;
-    border-bottom: 3px solid #f7f8fb;
 }
+hr{
+    height: 3px;
+    background-color: #f7f8fb;
+    border: none;
+    margin: 0px -5%;
+}
+
+
 .tasks{
-    padding-top: 20px;
+    padding-top: 5px;
 }
 #task{
-    text-align: center;
+    text-align: left;
     font: 10px;
     background-color:#63abed;
     border-radius: 10px;
