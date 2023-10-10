@@ -92,69 +92,32 @@ h3{
     padding: 1px 4px;
     margin-right: 10px;
 }
+.border_elements{
+    text-align: center;
+    font-weight: 800;
+    font-size: small;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    color:white;
+    margin-left: 5px;
+}
 .editorial{
-    text-align: center;
-    font-weight: 800;
-    font-size: small;
     background-color: #63abed;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 5px 10px;
-    color:white;
-    margin-left: 5px;
+
 }
-.goals{
-    text-align: center;
-    font-weight: 800;
-    font-size: small;
+#goals{ 
     background-color: #9c72e4;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 5px 10px;
-    color:white;
-    margin-left: 5px;
 }
-.recruiting{
-    text-align: center;
-    font-weight: 800;
-    font-size: small;
+#recruiting{
     background-color: #64c0a9;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 5px 10px;
-    color:white;
-    margin-left: 5px;
 }
-.mobile{
-    text-align: center;
-    font-weight: 800;
-    font-size: small;
+#mobile{
     background-color: #f29d2e;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 5px 10px;
-    color:white;
-    margin-left: 5px;
 }
-.website{
-    text-align: center;
-    font-weight: 800;
-    font-size: small;
+#website{
     background-color: #d863a1;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 5px 10px;
-    color:white;
-    margin-left: 5px;
 }
-.sales{
-    text-align: center;
-    font-weight: 800;
-    font-size: small;
+#sales{
     background-color: #afc823;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 5px 10px;
-    color:white;
-    margin-left: 5px;
 }
