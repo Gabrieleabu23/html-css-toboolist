@@ -42,7 +42,7 @@ h3{
     padding: 20px 50px;
 }
 #buttons{
-    padding: 35px 50px;
+    padding: 35px 50px 25px;
     background-color: white;
     border-bottom: 1px solid #f7f8fb;
 }
@@ -71,7 +71,7 @@ h3{
 .tasks{
     padding-top: 20px;
 }
-#pointer::after{
+.pointer::after{
     content: '\25BE';
 }
 .verified::before{
@@ -106,18 +106,18 @@ h3{
     background-color: #63abed;
 
 }
-#goals{ 
+.goals{ 
     background-color: #9c72e4;
 }
-#recruiting{
+.recruiting{
     background-color: #64c0a9;
 }
-#mobile{
+.mobile{
     background-color: #f29d2e;
 }
-#website{
+.website{
     background-color: #d863a1;
 }
-#sales{
+.sales{
     background-color: #afc823;
 }
