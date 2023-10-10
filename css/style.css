@@ -50,11 +50,12 @@ h3{
 #task{
     text-align: center;
     font: 10px;
-    background-color: #63abed;
-    border-radius: 8px;
-    border: 2px solid transparent;
+    background-color:#63abed;
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
     padding: 8px 20px;
-    color:white;
+    color: white;
     margin-right: 5px;
     
 }
@@ -62,15 +63,14 @@ h3{
     text-align: center;
     font: 10px;
     background-color: transparent;
-    border-radius: 8px;
-    border: 3px solid #e0e0e4;
-    padding: 8px 20px;
-    color: #e0e0e4;
+    border-radius: 10px;
+    border: 2px solid #919194;
+    padding: 6px 20px;
+    color: lightgray;
+    cursor:pointer;
 
 }
-.tasks{
-    padding-top: 20px;
-}
+
 .pointer::after{
     content: '\25BE';
 }
@@ -80,7 +80,7 @@ h3{
     color:#5dbea6 ;
     border: 2px solid #5dbea6;
     border-radius:45px;
-    padding: 1px 4px;
+    padding: 1px 3px;
     margin-right: 10px;
 }
 .error_mark::before{
