@@ -46,7 +46,9 @@ h3{
     background-color: white;
     border-bottom: 1px solid #f7f8fb;
 }
-
+.tasks{
+    padding-top: 20px;
+}
 #task{
     text-align: center;
     font: 10px;
